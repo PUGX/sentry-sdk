@@ -1,0 +1,31 @@
+{
+    "name": "pugx/sentry-sdk",
+    "type": "metapackage",
+    "description": "This is a metapackage shipping sentry/sentry with Symfony HTTP client.",
+    "keywords": [
+        "sentry",
+        "log",
+        "logging",
+        "error-monitoring",
+        "error-handler",
+        "crash-reporting",
+        "crash-reports"
+    ],
+    "homepage": "https://pugx.org",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "PUGX community",
+            "homepage": "https://github.com/pugx"
+        }
+    ],
+    "require": {
+        "nyholm/psr7": "^1.2",
+        "sentry/sentry": "^2.3",
+        "symfony/http-client": "^4.4 || ^5.0"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
+
