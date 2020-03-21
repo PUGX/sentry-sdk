@@ -20,7 +20,7 @@ This is an example of using this metapackage in your composer.json (other depend
 ```json
 {
     "require": {
-        "pugx/sdk-sentry": "^1.0",
+        "pugx/sentry-sdk": "^1.0",
         "sentry/sentry-symfony": "^3.4",
     }
 }
