@@ -21,7 +21,7 @@
     ],
     "require": {
         "nyholm/psr7": "^1.2",
-        "sentry/sentry": "^2.3",
+        "sentry/sentry": "^2.3 || ^3.0",
         "symfony/http-client": "^4.4 || ^5.0"
     },
     "replace": {
