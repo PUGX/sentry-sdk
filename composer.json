@@ -20,12 +20,12 @@
         }
     ],
     "require": {
-        "nyholm/psr7": "^1.2",
-        "sentry/sentry": "^2.3",
+        "nyholm/psr7": "^1.3",
+        "sentry/sentry": "^3.0",
         "symfony/http-client": "^4.4 || ^5.0"
     },
     "replace": {
-        "sentry/sdk": "2.*"
+        "sentry/sdk": "3.*"
     },
     "config": {
         "sort-packages": true
