@@ -11,6 +11,9 @@
 
 This is a metapackage shipping [sentry/sentry](https://github.com/getsentry/sentry-php) with Symfony client instead of Guzzle.
 
+> ⚠  This replacement is not needed anymore, because since version 3.0 sentry/sdk itself is using Symfony Client.
+
+
 See [issue #246 on gesentry/sentry-symfony](https://github.com/getsentry/sentry-symfony/issues/246) for reasons that lead to create this metapackage.
 
 ## Usage
